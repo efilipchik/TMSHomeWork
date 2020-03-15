@@ -10,11 +10,9 @@ public class Task11 {
         double b = Math.sqrt(a);
         b = Math.round(b);
         int c = (int) b;
-        int d = 0;
 
         for (int i = 2; i <= c; i++) {
-            d = a % i;
-            if (d != 0){
+            if (a % i != 0){
                 System.out.println("Число простое");
             }else {
                 System.out.println("Число не простое");

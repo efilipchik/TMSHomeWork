@@ -8,13 +8,21 @@ public class Task15 {
      */
     public static void main(String[] args) {
         int[] arr = {3, 8, 6, 9, 2, 5, 4};
+        int reverse;
 
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]);
         }
         System.out.print("\n");
-        for (int j = arr.length-1; j >= 0; j--) {
-            System.out.print(arr[j]);
+
+        for (int i = 0; i < arr.length / 2; i++) {
+            reverse = arr[i];
+            arr[i] = arr[arr.length - i - 1];
+            arr[arr.length - i -1] = reverse;
+        }
+
+        for (int i = 0; i < arr.length; i++) {
+                System.out.print(arr[i]);
 
         }
 

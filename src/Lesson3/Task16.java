@@ -11,7 +11,6 @@ public class Task16 {
         int c = arr[0];
         int z = 0;
         int x = 0;
-        int g = 0;
         int a = 0;
 
 
