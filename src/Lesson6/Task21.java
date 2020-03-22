@@ -12,19 +12,23 @@ public class Task21 {
 
         long startTime = System.currentTimeMillis();
 
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 10000; i++) {
             str1 = str1 + i;
         }
         System.out.println("Скорость выполнения String " + (System.currentTimeMillis()-startTime) + " миллисекунд");
 
-        for (int i = 0; i < 1000; i++) {
+        long startTime2 = System.currentTimeMillis();
+
+        for (int i = 0; i < 10000; i++) {
             str2.append(i);
         }
-        System.out.println("Скорость выполнения StringBuilder " + (System.currentTimeMillis()-startTime) + " миллисекунд");
+        System.out.println("Скорость выполнения StringBuilder " + (System.currentTimeMillis()-startTime2) + " миллисекунд");
 
-        for (int i = 0; i < 1000; i++) {
+        long startTime3 = System.currentTimeMillis();
+
+        for (int i = 0; i < 10000; i++) {
             str3.append(i);
         }
-        System.out.println("Скорость выполнения StringBuffer " + (System.currentTimeMillis()-startTime) + " миллисекунд");
+        System.out.println("Скорость выполнения StringBuffer " + (System.currentTimeMillis()-startTime3) + " миллисекунд");
     }
 }
