@@ -1,12 +1,11 @@
 package Lesson8.Task27;
 
-public class Cards {
+public abstract class Cards {
 
-    public void WithdrawMoney() {
-        System.out.println("Снять деньги");
+    public void withdrawMoney() {
     }
 
-    public void PutMoney() {
+    public void putMoney() {
         System.out.println("Положить деньги");
     }
 }

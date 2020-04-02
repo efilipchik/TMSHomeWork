@@ -5,10 +5,10 @@ import javafx.scene.control.SplitPane;
 public class Runner {
     public static void main(String[] args) {
 
-        Passenger Audi = new Passenger();
-        Cargo Scania = new Cargo();
-        Civil Boeing = new Civil();
-        Military Lockheed = new Military();
+        PassengerTransport Audi = new PassengerTransport();
+        CargoTransport Scania = new CargoTransport();
+        CivilTransport Boeing = new CivilTransport();
+        MilitaryTransport Lockheed = new MilitaryTransport();
 
         Audi.setPower(280);
         Audi.setTopSpeed(250);

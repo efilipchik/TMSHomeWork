@@ -8,4 +8,10 @@ public class Washer extends Appliances {
         System.out.println("Максимальная загрузка " + maximumLoad + " кг");
     }
 
+    @Override
+    public void turnOn() {
+        System.out.println("Включить в розетку");
+    }
+
+
 }

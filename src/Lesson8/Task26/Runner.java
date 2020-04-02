@@ -8,15 +8,12 @@ public class Runner {
            Иерархия должна иметь хотя бы три уровня.
          */
 
-        RefrigeratorSamsung RS = new RefrigeratorSamsung();
-        RefrigeratorLG RLG = new RefrigeratorLG();
-        WasherIndesit WI = new WasherIndesit();
+        Refrigerator R = new Refrigerator();
+        Washer W = new Washer();
 
-        RS.description();
-        RS.turnOn();
-        RLG.description();
-        RLG.turnOn();
-        WI.description();
+        R.description();
+        R.turnOn();
+        W.description();
 
     }
 }

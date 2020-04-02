@@ -1,6 +1,6 @@
 package Lesson8_add.AbstractClasses;
 
-public class Air extends Transport {
+public class AirTransport extends Transport {
     private double wingsPan;
     private int minimumStrip;
 

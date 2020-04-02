@@ -1,6 +1,6 @@
 package Lesson8_add.AbstractClasses;
 
-public class Military extends Air {
+public class MilitaryTransport extends AirTransport {
     private boolean bailoutSystem;
     private int numberOfRockets;
 

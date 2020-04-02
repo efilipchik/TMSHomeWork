@@ -1,6 +1,6 @@
 package Lesson8_add.AbstractClasses;
 
-public class Civil extends Air {
+public class CivilTransport extends AirTransport {
     private int numberOfPassengers;
     private boolean businessClass;
     int passengers = 100;

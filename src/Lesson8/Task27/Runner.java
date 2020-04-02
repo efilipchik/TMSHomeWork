@@ -6,22 +6,22 @@ public class Runner {
        /**Создать иерархию классов, описывающих банковские карточки.
           Иерархия должна иметь хотя бы три уровня.
        */
-        VisaGold VG = new VisaGold();
-        PlatinumMastercard PM = new PlatinumMastercard();
+        Visa V = new Visa();
+        Mastercard M = new Mastercard();
 
         System.out.println("Visa");
-        VG.WithdrawMoney();
-        VG.PutMoney();
-        VG.ForUSA();
-        VG.Design();
+        V.withdrawMoney();
+        V.putMoney();
+        V.forUSA();
+
 
         System.out.println();
 
         System.out.println("Mastercard");
-        PM.WithdrawMoney();
-        PM.PutMoney();
-        PM.ForEurope();
-        PM.Design();
+        M.withdrawMoney();
+        M.putMoney();
+        M.forEurope();
+
 
     }
 }

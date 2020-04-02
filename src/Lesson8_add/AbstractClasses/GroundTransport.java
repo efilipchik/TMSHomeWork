@@ -1,6 +1,6 @@
 package Lesson8_add.AbstractClasses;
 
-public class Ground extends Transport {
+public class GroundTransport extends Transport {
     private int numberOfWheels;
     private double fuelConsumption;
 

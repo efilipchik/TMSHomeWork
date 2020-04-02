@@ -10,4 +10,9 @@ public class Refrigerator extends Appliances {
         System.out.println("Количество компрессоров " + compressors);
     }
 
+    @Override
+    public void turnOn() {
+        System.out.println("Включить в розетку");
+    }
+
 }

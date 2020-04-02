@@ -1,6 +1,6 @@
 package Lesson8_add.AbstractClasses;
 
-public class Passenger extends Ground {
+public class PassengerTransport extends GroundTransport {
     private String bodyType;
     private int numberOfPassengers;
     int numberOfMinutes = 30;

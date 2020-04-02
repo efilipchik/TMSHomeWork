@@ -1,6 +1,6 @@
 package Lesson8_add.AbstractClasses;
 
-public class Cargo extends Ground {
+public class CargoTransport extends GroundTransport {
     private int carryingCapacity;
     int amountOfCargo = 25;
 
