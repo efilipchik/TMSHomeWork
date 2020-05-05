@@ -1,0 +1,34 @@
+<devices>
+    <device id="1">
+        <name>ComputerLG</name>
+        <origin>USA</origin>
+        <price curency="USD">500</price>
+        <type>
+            <peripheral>Yes</peripheral>
+            <energyConsumption>70</energyConsumption>
+            <cooler>Yes</cooler>
+        </type>
+        <componentParts>
+            <mouse critical="Yes">MouseLG</mouse>
+            <keyboard critical="No">KeyboardLG</keyboard>
+        </componentParts>
+        <USB>3.0</USB>
+    </device>
+
+    <device id ="2">
+        <name>omputerSamsung</name>
+        <origin>Korea</origin>
+        <price curency="USD">800</price>
+        <type>
+            <peripheral>Yes</peripheral>
+            <energyConsumption>80</energyConsumption>
+            <cooler>Yes</cooler>
+        </type>
+        <componentParts>
+            <mouse critical="Yes">MouseSamsung</mouse>
+            <keyboard critical="Yes">KeyboardSamsung</keyboard>
+        </componentParts>
+        <USB>3.0</USB>
+    </device>
+
+</devices>
